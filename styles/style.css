@@ -115,10 +115,18 @@
     height: 100vh;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    gap: 90px;
+    padding-top: 50px;
+}
+
+.service-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .service-left>button {
+    width: 160px;
     background-color: white;
     color: gray;
     border-radius: 25px;
@@ -165,15 +173,18 @@
     border-right: 1px solid red;
 }
 
-.ceo-profile > img {
+.ceo-profile>div>img {
     width: 75px;
     height: 75px;
     border-radius: 35px;
 }
-.ceo-profile > h4 {
-    margin-right: 150px;
+
+.ceo-profile>div>h3 {
+    font-size: 18px;
+    margin-right: 100px;
 }
-.profile-container > div >button {
+
+.profile-container>div>button {
     margin-left: 11px;
     font-size: 15px;
     color: rgb(245, 44, 44);
@@ -181,3 +192,26 @@
     border-radius: 25px;
     border: none;
 }
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    text-align: center;
+    color: black;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 50px;
+
+}
+
+.service-right>.box-container>.box>img {
+    width: 100px;
+}
+
+.box-container {
+    display: flex;
+    padding-bottom: 8px;
+}
+
+/* ------------Appointment----------- */

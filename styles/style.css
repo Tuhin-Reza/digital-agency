@@ -165,19 +165,15 @@
     border-right: 1px solid red;
 }
 
-.ceo-profile>img {
+.ceo-profile > img {
     width: 75px;
     height: 75px;
     border-radius: 35px;
-    /* width: 25%;
-    border-radius: 50px; */
 }
-
-.ceo-profile>h4 {
+.ceo-profile > h4 {
     margin-right: 150px;
 }
-
-.profile-container>div>button {
+.profile-container > div >button {
     margin-left: 11px;
     font-size: 15px;
     color: rgb(245, 44, 44);

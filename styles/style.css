@@ -42,4 +42,53 @@
 
 
 /* ------------banner----------- */
+#banner{
+    background-image: url('../asset/image/background.jpg'),linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+   color: white;
+   text-align: center;
+}
+.banner-heading{
+    font-size: 86px;
+    font-weight: 900;
+}
+.digital{
+    color: red;
+}
+.banner-description{
+    width: 50%;
+    margin: auto;
+    font-size: 22px;
+    padding: 10px;
+}
 
+.btn-discover{
+    background-color:red;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.btn-hire{
+    background-color:aliceblue;
+    color: black;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+/* ------------Service----------- */

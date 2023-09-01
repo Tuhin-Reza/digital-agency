@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ---------------------nav--------------- */
+.nav-container{
+    background-color:rgba(172, 166, 166, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.nav-left>h5{
+    font-size: 20px;
+    color: cyan;
+    font-weight: 600px;
+}
+.nav-left >img{
+    width: 200px;
+}
+
+.nav-right{
+    display: flex;
+    gap: 30px;
+}
+.nav-right > li {
+    list-style-type: none;
+}
+.nav-right > li >a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav-right > li >a:hover{
+    color: cyan;
+}
+
+
+/* ------------banner----------- */
+

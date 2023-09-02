@@ -297,3 +297,33 @@
     justify-content: center;
     gap: 50px;
 }
+
+
+/* ------------footer----------- */
+#footer{
+    background-image: url(../asset/image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    color: white;
+}
+.social-link>ul{
+    margin-left: 15px;
+    display: flex;
+    list-style-type: none;
+    gap:20px;
+}
+/* .footer-container-column>p{
+    padding-bottom: 25px;
+    line-height: 25px;
+} */
+
+
+
+.footer-contact-list>img{
+width: 20px;
+}
+.footer-contact-list{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+

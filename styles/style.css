@@ -112,11 +112,11 @@
 
 .service-container {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     justify-content: flex-start;
     gap: 90px;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .service-left {
@@ -215,7 +215,41 @@
 }
 
 /* ------------Appointment----------- */
-
 .appointment-call>img{
    width: 100px;
 }
+.appointment-call{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-right: 3px solid white;
+}
+.appointment-call>div>h5{
+    font-size: 12px;
+    margin-right: 30px;
+}
+.appointment-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:red;
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: -90px;
+    padding: 40px;
+    border-radius: 20px;
+}
+.appointment-description{
+    width: 400px;
+    font-size: 18px;
+}
+.appointment-btn>button{
+    background-color: #fff;
+    padding: 20px 35px;
+    border-radius: 25px;
+    border: none;
+}
+
+
+/* ------------Blog----------- */

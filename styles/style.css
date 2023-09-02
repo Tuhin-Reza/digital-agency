@@ -215,24 +215,27 @@
 }
 
 /* ------------Appointment----------- */
-.appointment-call>img{
-   width: 100px;
+.appointment-call>img {
+    width: 100px;
 }
-.appointment-call{
+
+.appointment-call {
     display: flex;
     align-items: center;
     gap: 20px;
     border-right: 3px solid white;
 }
-.appointment-call>div>h5{
+
+.appointment-call>div>h5 {
     font-size: 12px;
     margin-right: 30px;
 }
-.appointment-container{
+
+.appointment-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color:red;
+    background-color: red;
     color: white;
     width: 80%;
     margin: auto;
@@ -240,11 +243,13 @@
     padding: 40px;
     border-radius: 20px;
 }
-.appointment-description{
+
+.appointment-description {
     width: 400px;
     font-size: 18px;
 }
-.appointment-btn>button{
+
+.appointment-btn>button {
     background-color: #fff;
     padding: 20px 35px;
     border-radius: 25px;
@@ -254,22 +259,25 @@
 
 /* ------------Blog----------- */
 
-.blog-heading{
+.blog-heading {
     margin-top: 50px;
     text-align: center;
     margin-bottom: 50px;
 }
-.blog-heading>h1{
+
+.blog-heading>h1 {
     font-size: 50px;
 }
-.blog-heading>h1>span{
-    color: red; 
+
+.blog-heading>h1>span {
+    color: red;
 }
-.blog-heading>p{
+
+.blog-heading>p {
     font-size: 20px;
 }
 
-.card{
+.card {
     width: 330px;
     height: 400px;
     border-radius: 5px;
@@ -277,22 +285,24 @@
     margin-bottom: 40px;
 }
 
-.card>img{
+.card>img {
     width: 100%;
     border-radius: 5px;
 }
 
-.card>h1{
+.card>h1 {
     text-align: center;
     font-size: 20px;
     padding-top: 20px;
 }
-.card>p{
+
+.card>p {
     padding-top: 17px;
     padding-left: 30px;
     font-size: 16px;
 }
-.blog-img{
+
+.blog-img {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -300,30 +310,39 @@
 
 
 /* ------------footer----------- */
-#footer{
+#footer {
     background-image: url(../asset/image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
     background-blend-mode: overlay;
     color: white;
 }
-.social-link>ul{
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 150px;
+}
+
+.social-link>ul {
     margin-left: 15px;
     display: flex;
     list-style-type: none;
-    gap:20px;
+    gap: 20px;
 }
-/* .footer-container-column>p{
-    padding-bottom: 25px;
-    line-height: 25px;
-} */
 
 
 
-.footer-contact-list>img{
-width: 20px;
+.footer-container-column>ul>li {
+    list-style-type: none;
 }
-.footer-contact-list{
+.footer-container-column>ul{
+margin-top: 30px;
+}
+.footer-contact-list>img {
+    width: 20px;
+}
+.footer-contact-list {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-

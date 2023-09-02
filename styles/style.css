@@ -215,3 +215,7 @@
 }
 
 /* ------------Appointment----------- */
+
+.appointment-call>img{
+   width: 100px;
+}
